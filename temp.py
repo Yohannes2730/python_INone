@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "e725fb0a83c419bf733278c4ad836a02"
+API_KEY = ""
 
 def temperature_advisor(temp):
     if temp < 10:
