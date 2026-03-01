@@ -91,7 +91,7 @@ def get_bet():
             if MIN_BET <= amount <= MAX_BET:
                 return amount
             else:
-                print(f"Amount must be between ${MIN_BET} - ${MAX_BET}.")
+                       print(f"Amount must be between ${MIN_BET} - ${MAX_BET}.")
         else:
             print("Please enter a valid number")
 
